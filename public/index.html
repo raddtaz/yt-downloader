@@ -32,13 +32,16 @@
 
     <form class="form-body">
          <div class="column">
-            <h1 align="center">Enter Url</h1>
-    <input type="text" placeholder="url" id="txt_url"><br>
-    <input type="button" id="btn_fetch" value="Get">
+<div class="input-group mb-3">
+    <input type="text" placeholder="url" id="txt_url" class="form-control">
+ <div class="input-group-append">
+    <input type="button" id="btn_fetch" value="Get Video" class="btn btn-outline-secondary">
 </div>
+             </div>
+        </div>
 </form>
 
-<center><video class="responsive" width="500" height="300" controls>
+<center><video class="responsive" width="90%" height="auto" controls>
     <source src="" type="video/mp4"/>
     <em>Sorry, your browser doesn't support HTML5 video.</em>
 </video>
