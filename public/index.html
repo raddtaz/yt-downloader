@@ -9,6 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="yt13.css">
 </head>
 <body>
  <div >
@@ -30,14 +31,17 @@
 </div>
 
     <form class="form-body">
-         <div class="column">
-            <h1 align="center">Enter Url</h1>
-    <input type="text" placeholder="url" id="txt_url"><br>
-    <input type="button" id="btn_fetch" value="Get">
+         <div class="column" style="width: device-width; margin: 30px;">
+    <div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="url" id="txt_url" aria-label="Recipient's username" aria-describedby="button-addon2">
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary" type="button" id="button-addon2" id="btn_fetch" value="Get">Get Url</button>
+  </div>
+</div>
 </div>
 </form>
 
-<center><video class="responsive" width="500" height="300" controls>
+<center><video class="responsive" width="90%" height="auto" controls>
     <source src="" type="video/mp4"/>
     <em>Sorry, your browser doesn't support HTML5 video.</em>
 </video>
